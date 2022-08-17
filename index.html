@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smooth Scroll</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <nav class="navbar">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#service">Service</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#cssscroll">Css Scroll</a></li>
+
+            </ul>
+        </nav>
+        <section id="home">
+            <h1>Welcome to my Website</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus quasi esse tempora aut illum officia.</p>
+        </section>
+        <section id="about">
+            <h1>About</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus quasi esse tempora aut illum officia.</p>
+        </section>
+        <section id="service">
+            <h1>Service</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus quasi esse tempora aut illum officia.</p>
+        </section>
+        <section id="contact">
+            <h1>Contact</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus quasi esse tempora aut illum officia.</p>
+        </section>
+        <section id="cssscroll">
+            <h1>Simple css scroll</h1>
+            <p>Add to body : overflow:hidden;</p>
+            <p>Add to main Container : overflow-y:scroll;</p>
+            <p>Add to main container:  scroll-behavior:smooth;</p>
+            <h2>For scroll snap</h2>
+            <p>Add to main container: scroll-snap-type:y mandatory;</p>
+    <p>Add to all sections or dive :  scroll-snap-align:center;</p>
+        </section>
+    </div>
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15.0.0/dist/smooth-scroll.polyfills.min.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
